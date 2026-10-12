@@ -1,0 +1,40 @@
+.expense-form {
+  max-width: 500px;
+  margin: 30px auto;
+  padding: 25px;
+  border: 1px solid #ddd;
+  border-radius: 12px;
+  background: white;
+}
+
+.expense-form-title {
+  margin-bottom: 20px;
+}
+
+.expense-form input,
+.expense-form select {
+  width: 100%;
+  padding: 10px;
+  margin-top: 6px;
+  margin-bottom: 15px;
+  box-sizing: border-box;
+}
+
+.expense-form button {
+  padding: 10px 20px;
+  border: none;
+  border-radius: 8px;
+  cursor: pointer;
+}
+@media (max-width: 768px) {
+  .expense-form {
+    margin: 20px;
+    padding: 20px;
+  }
+}
+.form-error {
+  color: red;
+  font-size: 14px;
+  margin-top: -10px;
+  margin-bottom: 10px;
+}

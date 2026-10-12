@@ -1,0 +1,79 @@
+.expense-list {
+  max-width: 700px;
+  margin: 30px auto;
+}
+
+.expense-item {
+  padding: 20px;
+  margin-bottom: 15px;
+  border: 1px solid #ddd;
+  border-radius: 12px;
+  background: white;
+}
+
+.expense-info {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.expense-info h3 {
+  margin: 0 0 5px;
+}
+
+.expense-info p {
+  margin: 0;
+  text-transform: capitalize;
+}
+
+.expense-info strong {
+  font-size: 22px;
+}
+
+.expense-actions {
+  display: flex;
+  gap: 10px;
+  margin-top: 15px;
+}
+
+.expense-actions button {
+  padding: 8px 15px;
+  border: none;
+  border-radius: 6px;
+  cursor: pointer;
+}
+.edit-form {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+.edit-form input,
+.edit-form select {
+  padding: 10px;
+  border: 1px solid #ddd;
+  border-radius: 6px;
+}
+
+.edit-form button {
+  padding: 9px 15px;
+  border: none;
+  border-radius: 6px;
+  cursor: pointer;
+}
+
+.empty-state {
+  padding: 40px 20px;
+  text-align: center;
+  border: 1px dashed #ddd;
+  border-radius: 12px;
+  margin-top: 20px;
+}
+
+.empty-state h3 {
+  margin-bottom: 8px;
+}
+
+.empty-state p {
+  margin: 0;
+}
